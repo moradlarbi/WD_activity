@@ -1,11 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Titillium+Web:wght@400&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  --color-white:0 0 0;
+  font-family: 'Poppins', sans-serif;
+  --color-white:255 255 255;
+  --color-green:79 163 165;
+  --color-grey:240 245 248;
+
 }
 
 a {
@@ -15,6 +20,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+h1, button {
+  font-family: 'Titillium Web', sans-serif;
 }
 
 
