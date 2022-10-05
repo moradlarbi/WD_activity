@@ -2,13 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Technology;
+  src: url(../Assets/fonts/Technology-Italic.woff);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Work Sans', sans-serif;
-  --color-white:255 255 255;
-
+  font-family: "Work Sans", sans-serif;
+  --color-white: 255 255 255;
 }
 
 a {
@@ -19,8 +23,11 @@ a {
 * {
   box-sizing: border-box;
 }
-h1, button {
-  font-family: 'Titillium Web', sans-serif;
+h1,
+button {
+  font-family: "Titillium Web", sans-serif;
 }
 
-
+.test {
+  font-family: Technology;
+}
