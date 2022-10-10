@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
 @font-face {
   font-family: Technology;
   src: url(../Assets/fonts/Technology-Italic.woff);
 }
+
+@font-face {
+  font-family: BackToFuture;
+  src: url(../Assets/fonts/BTTF.woff);
+}
+
+
 
 html,
 body {
@@ -28,6 +38,24 @@ button {
   font-family: "Titillium Web", sans-serif;
 }
 
-.test {
-  font-family: Technology;
+.herosection {
+  background-image: url("../Assets/images/HeroSectionBG.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.title {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.para {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.arrow {
+  font-family: "BackToFuture", sans-serif;
+}
+
+.date {
+  font-family: "Technology";
 }

@@ -1,4 +1,12 @@
 import React from "react";
+import HeroSection from "./HeroSection"
+import Enigme from "./enigme"
+
 export default function Home() {
-  return <div className="text-rougeTxt test">Hey</div>;
+  return(
+    <div className="overflow-hidden">
+      <HeroSection />
+      <Enigme />
+    </div>
+  );
 }
