@@ -59,3 +59,27 @@ button {
 .date {
   font-family: "Technology";
 }
+.react-datepicker-wrapper {
+  width: 40% !important;
+  outline: none;
+}
+.react-datepicker__input-container input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+}
+.react-time-picker {
+  width: 40% !important;
+}
+.react-time-picker__wrapper {
+  width: 100%;
+  background: transparent;
+}
+.react-time-picker__wrapper button {
+  display: none !important;
+}
+.react-time-picker__inputGroup input, .react-time-picker__inputGroup select {
+  background: transparent;
+  outline: none;
+  width: fit-content !important;
+}
