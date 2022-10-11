@@ -6,7 +6,7 @@
         "mois": "11",
         "jour": "10",
         "heure": "11:03",
-        "lastTime": "20 Sept 2022 11:03"
+        "lastTime": "SEP 20 2022 11:03"
     },
     {
         "id": 2,
@@ -15,27 +15,25 @@
         "mois": "5",
         "jour": "21",
         "heure": "17:50",
-        "lastTime": "18 février 2002 17:15"
+        "lastTime": "FEV 18 2002 17:15"
     },
     {
         "id": 3,
         "indices": "La minute de mon avenir est le premier des premiers mais mon heure n’est que le produit de mon présent et de mon passé. Le mois de mon avenir fait partie de mon passé et mon jour est l’année de mon présent divisé par 1111101. L’année vous la connaissez : elle a marqué pour vous le début d’une nouvelle vie, et peut-être marquera-t-elle l’année où vous deviendrait ETICien.",
-        "sol": "DEC 16 2022 12:03",
         "year": "2022",
         "mois": "12",
         "jour": "16",
         "heure": "12:03",
-        "lastTime": " DEC  28 2021 04:44"
+        "lastTime": "DEC 28 2021 04:44"
     },
     {
         "id": 4,
         "indices": "à minuit . J'ai essayé d'ajouter 22 heures  à la base X  afin d'arriver à l'heure d'un jour mémorable du X mois de la même année . Ce jour A qu'il est égale à l'heure à la base 10  est avant 2 jours de mon passé. ",
-        "sol": "Juillet 16 2022 16:00",
         "year": "2022",
         "mois": "07",
         "jour": "16",
         "heure": "16:00",
-        "lastTime": "18 Septembre 2022 12:15"
+        "lastTime": "SEP 18 2022 12:15"
     }
     
 ]

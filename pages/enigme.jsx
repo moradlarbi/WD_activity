@@ -31,11 +31,11 @@ export default function Enigme() {
     return () => clearInterval(handle);
   }, []);
   return(
-    <div className="w-screen h-screen bg-noirBG text-blancTxt justify-center">
-      <div className="container flex flex-col items-center w-full gap-4 pt-5">
+    <div className="w-screen h-screen bg-noirBG text-blancTxt justify-center items-center">
+      <div className="container flex flex-col items-center justify-center w-full gap-5 pt-5">
         <h1 className="text-5xl mb-3">Your clues</h1>
         <p className="text-2xl w-4/5 text-center mb-3">{enigmes[index].indices}</p>
-        <h2 className="date text-rougeTxt text-7xl flex justify-center">
+        <h2 className="date text-rougeTxt text-7xl flex justify-center pl-[10%]">
         <DatePicker selected={finalDate} dateFormat="MMM dd yyyy" onChange={(date) => setFinalDate(date)} />
         <TimePicker onChange={onChange} value={value} locale="sv-sv" />
 
@@ -43,7 +43,7 @@ export default function Enigme() {
         <p className="text-xl">DESTINATION TIME</p>
         <h2 className="date text-bleuTxt text-7xl">{enigmes[index].lastTime}</h2>
         <p className="text-xl">PRESENT TIME</p>
-        <h2 className="date text-orangeTxt text-7xl">{Moment(time).format("MMM DD YYYY HH:mm")}</h2>
+        <h2 className="date text-orangeTxt text-7xl mb-3">{Moment(time).format("MMM DD YYYY HH:mm")}</h2>
         <div className='flex gap-5 justify-center w-full'>
         <button className="lg:w-56 md:w-48 sm:w-36 w-24 border-2 lg:text-2xl text-xl self-end py-2 rounded-3xl"
         onClick={() => {
